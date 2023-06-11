@@ -30,8 +30,9 @@ namespace Arrays
             */
 
 
-            average();
-            secondLargest();
+            // average();
+            //secondLargest();
+            removDoublicat();
         }
         static void average()
         {
@@ -119,6 +120,17 @@ namespace Arrays
                 Console.WriteLine("The second largest element in the array is {0}", secondmax);
 
             }
+
+        static void removDoublicat()
+        {
+            int[] nums = { 1, 2, 3, 4, 3, 55, 23, 2 };
+            int[] dist = nums.Distinct().ToArray();
+            for(int i=0;i<dist.Length;i++)
+            {
+                Console.WriteLine(dist[i]);
+
+            }
+        }
 
 
         
