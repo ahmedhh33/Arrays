@@ -32,7 +32,17 @@ namespace Arrays
 
             // average();
             //secondLargest();
-            removDoublicat();
+            // removDoublicat();
+            string a = "Ahmed";
+            char sub = a.ElementAt(2);
+            Console.WriteLine(sub);
+            string sub1=a.Substring(0,5);
+            Console.WriteLine(sub1);
+            string b = "Humaid";
+            //Console.WriteLine( a.Concat(b));
+            string sentence = " Hi my name is Ahmed I have a test today ";
+            string[] stringsplit=sentence.Split(" ");
+            Console.WriteLine(stringsplit);
         }
         static void average()
         {
